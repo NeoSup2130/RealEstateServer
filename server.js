@@ -7,8 +7,8 @@ const router = jsonServer.router('db.json');
 
 const whitelist = ["https://localhost:8000", 'https://slava-real-estate-care.netlify.app']
 
-app.use(cors({
-    origin : (origin, callback) =>
+const corsOptions = {
+  origin : (origin, callback) =>
     {
         if (whitelist.indexOf(origin) !== -1 || !origin) 
         {
@@ -20,7 +20,11 @@ app.use(cors({
         }
     },
     optionsSuccessStatus: 200
-}))
+};
+
+app.use(cors(corsOptions));
+
+app.options('*', cors());
 
 app.db = router.db;
 

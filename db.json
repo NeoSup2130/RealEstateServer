@@ -1,16 +1,407 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "admin@mail.com",
+      "password": "$2a$10$PR8XSYXLRdlYdPHMnRyesuMfjHkkjr6n3l4GsKa8NlrKcEMJSNmwe",
+      "username": "admin",
+      "id": 1
     }
   ],
-  "comments" : [
+  "inspections": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "1",
+      "date": "2021-01-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "date": "2021-06-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "date": "2022-01-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "date": "2022-06-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "date": "2023-01-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "date": "2023-06-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "date": "2024-01-01",
+      "items": [
+        {
+          "Damages": {
+            "Location": "Front door",
+            "IsNew": "Yes",
+            "Type": "Usage",
+            "Date": "01-01-2001",
+            "Action": "Yes",
+            "Description": "Front door hinges have broken down."
+          },
+          "Maintenance": {
+            "Location": "Downstairs heaters",
+            "Type": "Pipes",
+            "Action": "No",
+            "Cost": "0-500"
+          },
+          "Technical installations": {
+            "Location": "Bathroom",
+            "Type": "Pipes",
+            "Issue": "Showers not heating properly.",
+            "Procedure": "example.pdf",
+            "Accepted": "Yes",
+            "Notes": "Issue is related to the aforementioned heater maintenance"
+          },
+          "House adjustments": {
+            "Known": "example.pdf",
+            "Location": "Backyard",
+            "Responsible": "Renter",
+            "Description": "Fences have been "
+          }
+        }
+      ]
+    }
+  ],
+  "form-inspection": [
+    {
+      "Damages": {
+        "Location": {
+          "type": "text"
+        },
+        "Is new": {
+          "type": "radio",
+          "value": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Type": {
+          "type": "selection",
+          "value": [
+            "Deliberate",
+            "Weared out",
+            "Normal use",
+            "Calamity",
+            "Other"
+          ]
+        },
+        "Date": {
+          "type": "date"
+        },
+        "Action required": {
+          "type": "radio",
+          "value": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Description": {
+          "type": "textarea"
+        }
+      }
+    },
+    {
+      "Deferred Maintainance": {
+        "Location": {
+          "type": "text"
+        },
+        "Type": {
+          "type": "selection",
+          "value": [
+            "Painting",
+            "Wood rot",
+            "Electricity",
+            "Piping",
+            "Glazing"
+          ]
+        },
+        "Action required": {
+          "type": "radio",
+          "value": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Cost": {
+          "type": "selection",
+          "value": [
+            "0-500",
+            "500-1500",
+            "1500+"
+          ]
+        }
+      }
+    },
+    {
+      "Technical Installations": {
+        "Location": {
+          "type": "text"
+        },
+        "Type": {
+          "type": "selection",
+          "value": [
+            "Cooling",
+            "Heating",
+            "Ventilation",
+            "Electricity",
+            "Security"
+          ]
+        },
+        "Report": {
+          "type": "textarea"
+        },
+        "Procedure": {
+          "type": "file",
+          "value": [
+            "pdf"
+          ]
+        },
+        "Approved": {
+          "type": "radio",
+          "value": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Notes": {
+          "type": "textarea"
+        }
+      }
+    },
+    {
+      "House Modifications": {
+        "Latest House State": {
+          "type": "file",
+          "value": [
+            "pdf"
+          ]
+        },
+        "Location": {
+          "type": "text"
+        },
+        "Done by": {
+          "type": "selection",
+          "value": [
+            "Renter",
+            "Rentee",
+            "Unknown"
+          ]
+        },
+        "Description": {
+          "type": "textarea"
+        },
+        "Action": {
+          "type": "selection",
+          "value": [
+            "Accept",
+            "Inspect",
+            "Remove",
+            "Adjust and Approve"
+          ]
+        },
+        "Notes": {
+          "type": "textarea"
+        }
+      }
     }
   ]
 }

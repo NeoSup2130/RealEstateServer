@@ -10,7 +10,7 @@ const whitelist = ["https://localhost:8000", 'https://slava-real-estate-care.net
 app.use(cors({
     origin : (origin, callback) =>
     {
-        if (whitelist.indexOf(origin) !== -1) 
+        if (whitelist.indexOf(origin) !== -1 || !origin) 
         {
           callback(null, true)
         } 

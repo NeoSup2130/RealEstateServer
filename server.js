@@ -5,7 +5,7 @@ const cors = require('cors');
 const app  = jsonServer.create();
 const router = jsonServer.router('db.json');
 
-const whitelist = ["https://localhost:8000", 'https://slava-real-estate-care.netlify.app']
+const whitelist = ["http://localhost:8000", 'https://slava-real-estate-care.netlify.app']
 
 const corsOptions = {
   origin : (origin, callback) =>

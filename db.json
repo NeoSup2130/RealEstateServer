@@ -7,6 +7,15 @@
       "id": 1
     }
   ],
+  "images" : [
+    
+  ],
+  "open-inspections":[
+    {
+      "id": "1",
+      "address": "1234AB, Streetway 10"
+    }
+  ],
   "inspections": [
     {
       "id": "1",

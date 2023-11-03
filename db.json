@@ -24,31 +24,33 @@
         {
           "Damages": {
             "Location": "Front door",
-            "IsNew": "Yes",
+            "Is new": "Yes",
             "Type": "Usage",
             "Date": "01-01-2001",
-            "Action": "Yes",
+            "Action required": "Yes",
             "Description": "Front door hinges have broken down."
           },
           "Maintenance": {
             "Location": "Downstairs heaters",
             "Type": "Pipes",
-            "Action": "No",
+            "Action required": "No",
             "Cost": "0-500"
           },
           "Technical installations": {
             "Location": "Bathroom",
             "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
+            "Report": "Showers not heating properly.",
+            "Procedure": "originaldocument.pdf",
+            "Approved": "Yes",
             "Notes": "Issue is related to the aforementioned heater maintenance"
           },
           "House adjustments": {
-            "Known": "example.pdf",
+            "Latest House State": "originaldocument.pdf",
             "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
+            "Done By": "Renter",
+            "Description Modification": "Fences rebuilt from scratch",
+            "Action" : "Accept",
+            "Notes" : "Fences look good"
           }
         }
       ]
@@ -60,31 +62,33 @@
         {
           "Damages": {
             "Location": "Front door",
-            "IsNew": "Yes",
+            "Is new": "Yes",
             "Type": "Usage",
             "Date": "01-01-2001",
-            "Action": "Yes",
+            "Action required": "Yes",
             "Description": "Front door hinges have broken down."
           },
           "Maintenance": {
             "Location": "Downstairs heaters",
             "Type": "Pipes",
-            "Action": "No",
+            "Action required": "No",
             "Cost": "0-500"
           },
           "Technical installations": {
             "Location": "Bathroom",
             "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
+            "Report": "Showers not heating properly.",
+            "Procedure": "originaldocument.pdf",
+            "Approved": "Yes",
             "Notes": "Issue is related to the aforementioned heater maintenance"
           },
           "House adjustments": {
-            "Known": "example.pdf",
+            "Latest House State": "originaldocument.pdf",
             "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
+            "Done By": "Renter",
+            "Description Modification": "Fences rebuilt from scratch",
+            "Action" : "Accept",
+            "Notes" : "Fences look good"
           }
         }
       ]
@@ -96,31 +100,33 @@
         {
           "Damages": {
             "Location": "Front door",
-            "IsNew": "Yes",
+            "Is new": "Yes",
             "Type": "Usage",
             "Date": "01-01-2001",
-            "Action": "Yes",
+            "Action required": "Yes",
             "Description": "Front door hinges have broken down."
           },
           "Maintenance": {
             "Location": "Downstairs heaters",
             "Type": "Pipes",
-            "Action": "No",
+            "Action required": "No",
             "Cost": "0-500"
           },
           "Technical installations": {
             "Location": "Bathroom",
             "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
+            "Report": "Showers not heating properly.",
+            "Procedure": "originaldocument.pdf",
+            "Approved": "Yes",
             "Notes": "Issue is related to the aforementioned heater maintenance"
           },
           "House adjustments": {
-            "Known": "example.pdf",
+            "Latest House State": "originaldocument.pdf",
             "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
+            "Done By": "Renter",
+            "Description Modification": "Fences rebuilt from scratch",
+            "Action" : "Accept",
+            "Notes" : "Fences look good"
           }
         }
       ]
@@ -132,31 +138,33 @@
         {
           "Damages": {
             "Location": "Front door",
-            "IsNew": "Yes",
+            "Is new": "Yes",
             "Type": "Usage",
             "Date": "01-01-2001",
-            "Action": "Yes",
+            "Action required": "Yes",
             "Description": "Front door hinges have broken down."
           },
           "Maintenance": {
             "Location": "Downstairs heaters",
             "Type": "Pipes",
-            "Action": "No",
+            "Action required": "No",
             "Cost": "0-500"
           },
           "Technical installations": {
             "Location": "Bathroom",
             "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
+            "Report": "Showers not heating properly.",
+            "Procedure": "originaldocument.pdf",
+            "Approved": "Yes",
             "Notes": "Issue is related to the aforementioned heater maintenance"
           },
           "House adjustments": {
-            "Known": "example.pdf",
+            "Latest House State": "originaldocument.pdf",
             "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
+            "Done By": "Renter",
+            "Description Modification": "Fences rebuilt from scratch",
+            "Action" : "Accept",
+            "Notes" : "Fences look good"
           }
         }
       ]
@@ -168,103 +176,33 @@
         {
           "Damages": {
             "Location": "Front door",
-            "IsNew": "Yes",
+            "Is new": "Yes",
             "Type": "Usage",
             "Date": "01-01-2001",
-            "Action": "Yes",
+            "Action required": "Yes",
             "Description": "Front door hinges have broken down."
           },
           "Maintenance": {
             "Location": "Downstairs heaters",
             "Type": "Pipes",
-            "Action": "No",
+            "Action required": "No",
             "Cost": "0-500"
           },
           "Technical installations": {
             "Location": "Bathroom",
             "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
+            "Report": "Showers not heating properly.",
+            "Procedure": "originaldocument.pdf",
+            "Approved": "Yes",
             "Notes": "Issue is related to the aforementioned heater maintenance"
           },
           "House adjustments": {
-            "Known": "example.pdf",
+            "Latest House State": "originaldocument.pdf",
             "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
-          }
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "date": "2023-06-01",
-      "items": [
-        {
-          "Damages": {
-            "Location": "Front door",
-            "IsNew": "Yes",
-            "Type": "Usage",
-            "Date": "01-01-2001",
-            "Action": "Yes",
-            "Description": "Front door hinges have broken down."
-          },
-          "Maintenance": {
-            "Location": "Downstairs heaters",
-            "Type": "Pipes",
-            "Action": "No",
-            "Cost": "0-500"
-          },
-          "Technical installations": {
-            "Location": "Bathroom",
-            "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
-            "Notes": "Issue is related to the aforementioned heater maintenance"
-          },
-          "House adjustments": {
-            "Known": "example.pdf",
-            "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
-          }
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "date": "2024-01-01",
-      "items": [
-        {
-          "Damages": {
-            "Location": "Front door",
-            "IsNew": "Yes",
-            "Type": "Usage",
-            "Date": "01-01-2001",
-            "Action": "Yes",
-            "Description": "Front door hinges have broken down."
-          },
-          "Maintenance": {
-            "Location": "Downstairs heaters",
-            "Type": "Pipes",
-            "Action": "No",
-            "Cost": "0-500"
-          },
-          "Technical installations": {
-            "Location": "Bathroom",
-            "Type": "Pipes",
-            "Issue": "Showers not heating properly.",
-            "Procedure": "example.pdf",
-            "Accepted": "Yes",
-            "Notes": "Issue is related to the aforementioned heater maintenance"
-          },
-          "House adjustments": {
-            "Known": "example.pdf",
-            "Location": "Backyard",
-            "Responsible": "Renter",
-            "Description": "Fences have been "
+            "Done By": "Renter",
+            "Description Modification": "Fences rebuilt from scratch",
+            "Action" : "Accept",
+            "Notes" : "Fences look good"
           }
         }
       ]
@@ -359,9 +297,9 @@
           "type": "textarea"
         },
         "Procedure": {
-          "type": "file",
+          "type": "link",
           "value": [
-            "pdf"
+            "originaldocument.pdf"
           ]
         },
         "Approved": {
@@ -379,15 +317,15 @@
     {
       "House Modifications": {
         "Latest House State": {
-          "type": "file",
+          "type": "link",
           "value": [
-            "pdf"
+            "originaldocument.pdf"
           ]
         },
         "Location": {
           "type": "text"
         },
-        "Done by": {
+        "Done By": {
           "type": "selection",
           "value": [
             "Renter",
@@ -395,7 +333,7 @@
             "Unknown"
           ]
         },
-        "Description": {
+        "Description Modification": {
           "type": "textarea"
         },
         "Action": {
